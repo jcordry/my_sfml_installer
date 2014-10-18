@@ -73,3 +73,5 @@ You can explore how to make things work with SFML in Linux with or without
 codeblocks. Please follow:
 
 [Documentation](http://sfml-dev.org/tutorials/2.1/)
+
+Note that you will have to indicate your home lib and home include folders.
