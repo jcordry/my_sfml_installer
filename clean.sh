@@ -19,6 +19,6 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-for i in `cat ~/clean.txt`; do
+for i in `cat clean.txt`; do
     \rm -fr "$HOME/$i"
 done
