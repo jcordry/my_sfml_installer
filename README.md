@@ -13,7 +13,7 @@ You will eventually need to compile things in the labs in your own way,
 say but using the command line and a Makefile or by using codeblocks or
 some other way.
 
-**Note*: this is heavily dependent on the versions of the softwares
+**Note**: this is heavily dependent on the versions of the softwares
 used. At this point in time the supported versions are exclusively:
 
 - GLEW 1.11
@@ -31,3 +31,9 @@ clean.sh   # To reset your home folder.
 main.cpp   # A small SFML demo that comes with the SFML documentation
 compile.sh # compile the small SFML demo
 ```
+
+##Where to go from here
+
+You can explore how to make things work with SFML.
+
+[Documentation](http://sfml-dev.org/tutorials/2.1/)
