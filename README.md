@@ -32,8 +32,44 @@ main.cpp   # A small SFML demo that comes with the SFML documentation
 compile.sh # compile the small SFML demo
 ```
 
+##What should I do?
+
+To obtain a copy of this project, in a terminal type:
+
+```bash
+$ git clone git@github.com:jcordry/my_sfml_installer.git my_sfml_installer
+$ cd my_sfml_installer
+$ ./install.sh
+```
+
+It should take a while!
+
+Test that your installation was complete:
+
+```bash
+$ ./compile.sh && ./main
+```
+
+If your installation was successful, you should see a window that says "SFML
+works!"
+
+##Where is it all installed?
+
+You should have a few more directories in your home folder:
+
+```bash
+# These two will be necessary for to compile against SFML
+lib     # Where the libraries are installed!
+include # Where the headers are installed!
+# The rest might be useful (or not)
+bin
+doc
+share
+```
+
 ##Where to go from here
 
-You can explore how to make things work with SFML.
+You can explore how to make things work with SFML in Linux with or without
+codeblocks. Please follow:
 
 [Documentation](http://sfml-dev.org/tutorials/2.1/)

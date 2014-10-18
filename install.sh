@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-dir=/tmp/SFML_install/install
+dir=/tmp/SFML_$USER/
 
 if [[ ! -d "$dir" ]]; then
     mkdir $dir
