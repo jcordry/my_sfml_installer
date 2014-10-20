@@ -37,7 +37,7 @@ compile.sh # compile the small SFML demo
 To obtain a copy of this project, in a terminal type:
 
 ```bash
-$ git clone git@github.com:jcordry/my_sfml_installer.git my_sfml_installer
+$ git clone https://github.com/jcordry/my_sfml_installer.git my_sfml_installer
 $ cd my_sfml_installer
 $ ./install.sh
 ```
