@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/lib:/lib:/usr/lib
+
 dir=/tmp/SFML_$USER/
 
 # setup directories
