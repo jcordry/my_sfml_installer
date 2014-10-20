@@ -10,7 +10,7 @@ There is a need to solve some dependency issues though. This is what
 those files are about.
 
 You will eventually need to compile things in the labs in your own way,
-say but using the command line and a Makefile or by using codeblocks or
+say by using the command line and a Makefile or by using codeblocks or
 some other way.
 
 **Note**: this is heavily dependent on the versions of the softwares
@@ -61,7 +61,8 @@ You should have a few more directories in your home folder:
 # These two will be necessary for to compile against SFML
 lib     # Where the libraries are installed!
 include # Where the headers are installed!
-# The rest might be useful (or not)
+
+# The rest might be useful to know (or not)
 bin
 doc
 share
