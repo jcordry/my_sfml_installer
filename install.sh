@@ -14,6 +14,7 @@ fi
 if [[ ! -d $HOME/include ]]; then
     mkdir $HOME/include
 fi
+
 cd $dir
 
 # libsndfile
@@ -26,7 +27,7 @@ make install
 cd ..
 
 # glew
-curl -O http://kent.dl.sourceforge.net/project/glew/glew/1.11.0/glew-1.11.0.tgz
+curl -O https://scm-intranet.tees.ac.uk/users/u0026939/glew-1.11.0.tgz
 tar xzf glew-1.11.0.tgz
 cd glew-1.11.0
 make
