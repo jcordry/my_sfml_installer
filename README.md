@@ -76,3 +76,10 @@ codeblocks. Please follow:
 [Documentation](http://sfml-dev.org/tutorials/2.1/)
 
 Note that you will have to indicate your home lib and home include folders.
+
+***TO LAUNCH CODEBLOCKS:*** open a terminal and type in:
+
+```bash
+$ export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH;
+$ codeblocks
+```
