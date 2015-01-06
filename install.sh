@@ -45,7 +45,8 @@ make install
 cd ../
 
 # SFML
-curl -O http://www.sfml-dev.org/download/sfml/2.1/SFML-2.1-sources.zip
+curl -O http://www.sfml-dev.org/files/SFML-2.1-sources.zip
+# curl -O http://www.sfml-dev.org/download/sfml/2.1/SFML-2.1-sources.zip
 unzip SFML-2.1-sources.zip
 cd SFML-2.1
 cmake -DCMAKE_INSTALL_PREFIX=$HOME/
