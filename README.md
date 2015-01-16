@@ -13,8 +13,14 @@ You will eventually need to compile things in the labs in your own way,
 say by using the command line and a Makefile or by using codeblocks or
 some other way.
 
-**Note**: this is heavily dependent on the versions of the softwares
-used. At this point in time the supported versions are exclusively:
+**NOTE**:
+
+- This is heavily dependent on the versions of the softwares used. At this
+  point in time the supported versions are exclusively:
+- SFML 2.1 works in the labs but not SFML 2.2 which would require another
+  version of the Linux kernel which can not be installed in user space.  So
+  make sure your work is compatible with SFML 2.1.
+
 
 - GLEW 1.11
 - cmake 3.0.2
@@ -80,6 +86,5 @@ Note that you will have to indicate your home lib and home include folders.
 ***TO LAUNCH CODEBLOCKS:*** open a terminal and type in:
 
 ```bash
-$ export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH;
-$ codeblocks
+$ run-codeblocks.sh
 ```
