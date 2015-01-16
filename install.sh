@@ -54,10 +54,12 @@ make install
 
 # run-codeblocks.sh
 cat > ~/bin/run-codeblocks.sh << EOF
-export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH;
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
 codeblocks
 EOF
 chmod 755 ~/bin/run-codeblocks.sh
-cat > ~/.bash_profile << EOF
-export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH;
+# To be on the safe side...
+cat >> ~/.bash_profile << EOF
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+export PATH=$HOME/bin:$PATH
 EOF
